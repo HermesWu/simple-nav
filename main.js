@@ -30,7 +30,7 @@ function createSpan(textContent) {
 }
 
 function createButton(id) {
-	var button = tag('button')
+	var button = tag('button'，{className: 'button'})
 	button.id = id
 	button.textContent = '编辑'
 	button.onclick = function (xzkjcnxlkcjlk) {
